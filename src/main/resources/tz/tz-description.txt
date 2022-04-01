@@ -1,0 +1,6 @@
+foydalanuvchi kursga baho bergan payti rating_of_course table'ga log yoziladi
+    va courses table'dagi rating va rating_count column'lar update bo'ladi
+
+
+status = 100 ======>  user blocklangan boladi
+status = 0 =======> active user boladi

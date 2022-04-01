@@ -1,0 +1,46 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: 19801980
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/boom_academy?currentSchema=main
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  servlet:
+    multipart:
+      max-file-size: 100MB
+#    database-platform: org.hibernate.dialect.
+
+springdoc:
+  swagger-ui:
+    path: /sw
+  api-docs:
+    path: /api-docs
+
+api:
+  info:
+    title: Boom acdemy API
+    description: This api .....
+    version: 1.0
+    license-url: nimadir
+    license-name: nimadir
+    contact-name: boom.uz, boom-academy.uz
+    contact-email: boomAcademy@gmail.com
+    contact-url: https://boom.uz, https://boom-academy.uz
+
+storage:
+  location: /Users/macbookair/Documents/FileStorage/resource/
+
+service:
+  prop:
+    protocol: http
+    ip: localhost
+    port: 8080
+    url: boom.uz
